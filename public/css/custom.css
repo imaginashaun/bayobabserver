@@ -1,0 +1,428 @@
+/*
+ * LaraClassified - Classified Ads Web Application
+ * Copyright (c) BedigitCom. All Rights Reserved
+ *
+ * Website: https://bedigit.com
+ *
+ * LICENSE
+ * -------
+ * This software is furnished under a license and may be used and copied
+ * only in accordance with the terms of such license and with the inclusion
+ * of the above copyright notice. If you Purchased from CodeCanyon,
+ * Please read the full License from here - http://codecanyon.net/licenses/standard
+ */
+
+/* Your custom CSS here... */
+
+.wide-intro .intro-title {
+    text-align: center;
+    font: normal normal bold 54px/68px Muli;
+    text-transform: none;
+    letter-spacing: -2.05px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+#homepage .wide-intro p {
+    text-align: center;
+    font: normal normal normal 28px/35px Muli;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+.navbar.navbar-site .navbar-nav > li > a:not(.btn), .navbar.navbar-site .navbar-nav > li .nav-link:not(.btn), .navbar.navbar-light .navbar-nav > li > a:not(.btn), .navbar.navbar-light .navbar-nav > li .nav-link:not(.btn) {
+        text-align: left;
+        font: normal normal normal 16px/20px Muli;
+        letter-spacing: 0px;
+        color: #F2EEE8;
+        opacity: 1;
+    }
+
+.main-logo {
+    width: auto;
+    height: 47px;
+    float: left;
+    margin: 0 5px 5px 0;
+}
+
+#homepage a.btn-add-listing, a.btn-add-listing, button.btn-add-listing, li.postadd.nav-item>a.btn-add-listing {
+    background-image: none;
+}
+
+
+#homepage a.btn-add-listing, a.btn-add-listing, button.btn-add-listing, li.postadd.nav-item>a.btn-add-listing {
+    width: 144px;
+    height: 38px;
+    background: #F4932B 0% 0% no-repeat padding-box !important;
+    border-radius: 2px;
+    opacity: 1;
+
+    font: normal normal normal 16px/20px Muli !important;
+    letter-spacing: 0px;
+    color: #FFFFFF !important;
+    border:none !important;
+    box-shadow:none !important;
+}
+
+h1.intro-title {
+
+    text-align: center;
+    font: normal normal bold 34px/43px Muli;
+    letter-spacing: 0px;
+    color: #0F1930;
+    opacity: 1;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Muli", Helvetica, Arial, sans-serif;
+}
+
+.sub {
+
+    text-align: center;
+    font: normal normal normal 24px/30px Muli;
+    letter-spacing: 0px;
+    color: #0F1930;
+    opacity: 1;
+}
+
+
+.chooseregionselect {
+    width: 429px;
+    height: 54px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 6px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal normal 19px/27px Muli;
+    letter-spacing: 0.76px;
+    color: #919191;
+}
+
+select.chooseregionselect {
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Chrome */
+    -webkit-appearance: none;
+}
+
+/* For IE10 */
+select.chooseregionselect::-ms-expand {
+    display: none;
+}
+
+
+#selectedAdmin {
+    text-align: left;
+    font: normal normal bold 21px/32px Muli;
+    letter-spacing: 0px;
+    color: #1D3A7C;
+    opacity: 1;
+}
+
+
+ul.list-link li a, ul.list-link li {
+    text-align: left;
+    font: normal normal normal 17px/29px Muli;
+    letter-spacing: 0px;
+    color: #1D3A7C;
+    opacity: 1;
+}
+
+
+.langButton, .show > .langButton,.show > .langButton:focus {
+    background: none;
+    border: none;
+    text-align: left;
+    font: normal normal bold 14px/18px Muli;
+    letter-spacing: 0px;
+    color: #F2EEE8 !important;
+    opacity: 1;
+    box-shadow: none !important;
+}
+
+.langButton:hover,.langButton:focus ,.langButton:active {
+    background: none;
+    color: #F2EEE8 !important;
+}
+
+.navbar.navbar-site .flag-menu .flag-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.navbar-site.navbar .navbar-nav.navbar-left {
+    margin-top: 7px;
+}
+
+.navbar.navbar-site ul.navbar-nav > li > a.btn-add-listing:hover {
+    color: #fff !important;
+}
+
+
+.skin-yellow button.btn-search, .skin-yellow .btn-primary {
+    background: #F4932B 0% 0% no-repeat padding-box !important;
+    opacity: 1;
+    border-radius: 2px !important;
+
+    font: normal normal normal 16px/20px Muli !important;
+    letter-spacing: 0px;
+    color: #FFFFFF !important;
+    border:none !important;
+    box-shadow:none !important;
+}
+
+.f-category {
+    width: 172px;
+    height: 160px;
+    border-radius: 6px;
+    opacity: 1;
+    position: relative;
+
+}
+
+.f-category h6 {
+    letter-spacing: 0px;
+    margin: 0px 10px;
+
+    font: normal normal 600 16px/20px Muli;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+.f-category table {
+    position: absolute;
+    bottom: 8px;
+}
+.f-category td {
+    opacity: 1;
+    width: 142px;
+    height: 32px;
+    background: #0F1930 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+
+}
+
+.search_allc {
+    text-align: right;
+    font: normal normal normal 19px/24px Muli;
+    letter-spacing: 0px;
+    color: #0F1930;
+    opacity: 1;
+}
+
+
+.imageLatestThumb{
+    height: 341px;
+    background: transparent center no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    background-size: cover;
+
+}
+
+.itemHeader {
+    text-align: left;
+    font: normal normal bold 15px/19px Muli;
+    letter-spacing: 0px;
+    color: #0F1930;
+    opacity: 1;
+    padding:0px;
+
+}
+
+.locationHeader {
+    text-align: left;
+    font: normal normal normal 12px/15px Muli;
+    letter-spacing: 0px;
+    color: #999999;
+    opacity: 1;
+    padding:0px;
+
+}
+
+.itemDescription {
+    text-align: left;
+    font: normal normal normal 12px/15px Muli;
+    letter-spacing: 0px;
+    color: #999999;
+    opacity: 1;
+    margin:0px;
+}
+
+.userImage {
+    width: 25px !important;
+    height: 25px !important;
+    border:1px solid #4c4c4c;
+}
+
+.itemViewCount {
+    text-align: center;
+    font: normal normal normal 12px/15px Muli;
+    letter-spacing: 0px;
+    color: #999999;
+    padding:0px;
+    opacity: 1;
+}
+
+.header_holder {
+
+    margin-bottom: 250px;
+}
+
+.hide_bg {
+    background-image: none !important;
+    background-color: transparent !important;
+}
+
+.navbar-toggler {
+    color: #fff !important;
+}
+
+
+#thumbSlider, #thumbSliderCategories {
+    width: 100%;
+}
+
+
+#homepage a.btn-add-listing, a.btn-add-listing, button.btn-add-listing, li.postadd.nav-item>a.btn-add-listing {
+    background-image: linear-gradient(to bottom,#f4932b 0,#ba650a 100%);
+    border-color: #82490d;
+}
+
+.search-row-wrapper {
+    background: #0f1930;
+}
+.btn-primary {
+    /*    background-color: #040c1c;
+        border-color: #010c25;*/
+    background-image: linear-gradient(to bottom,#f4932b 0,#ba650a 100%);
+    color: #fff;
+}
+
+.navbar.navbar-site ul.navbar-nav > li > a:hover {
+    color:#0F1930;
+}
+
+.skin-yellow .navbar.navbar-site {
+    background-color: #0F1930!important;
+    border: 1px solid #030c21!important;
+    height: 74px;
+    background: #0F1930 0% 0% no-repeat padding-box !important;
+}
+
+.badge-light {
+    background-color: #071c4f;
+}
+
+
+.skin-yellow .search-row-wrapper {
+    background: #f4932b;
+}
+
+.skin-yellow a, .skin-yellow .list-filter ul li p.maxlist-more a {
+    color: #f4932b;
+}
+
+.tag_bb {
+    background: #0F1930 !important;
+    color:#fff !important;
+    border-radius:5px;
+    font-weight: bold !important;
+}
+
+.intro h1, .intro-title {
+    color:#061028;
+}
+
+.greycont {
+    background: #f5f5f5 none repeat scroll 0 0;
+    padding: 40px 0px;
+}
+
+
+.location-content .title-3 {
+    color:#1D3A7C;
+}
+
+.cat-list.pop li a{
+    color:#1D3A7C !important;
+    font-size: 15pt !important;
+}
+
+.skin-yellow button.btn-search.mainblock{
+    color: #919191 !important;
+    border-radius:6px !important;
+    background-color: #fff !important;
+    border-color: #ccc !important;
+    background-image: linear-gradient(to bottom,#ffffff 0,#e8e8e8 100%) !important;
+    text-shadow: none !important;
+    -webkit-text-shadow: 0 2px 2px #ccc !important;
+    text-align: left !important;
+}
+
+.skin-yellow a.search_allc {
+    color: #000;
+    font-size: 16pt;
+}
+#homepage .wide-intro h1,#homepage .wide-intro p{
+    color:#fff !important;
+}
+
+.wide-intro {
+    height: 650px;
+    max-height: 1000px;
+}
+
+.mainblock {
+    border: none;
+    width: 429px;
+    height: 54px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 6px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal normal 19px/27px Muli;
+    letter-spacing: 0.76px;
+    color: #919191;
+}
+
+.skin-yellow .wide-intro .search-row {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+@media (max-width: 767px) {
+    .skin-yellow .wide-intro .search-row {
+        background: rgba(255, 255, 255, 0.4);
+        opacity: 1;
+    }
+
+    .skin-yellow .navbar.navbar-site .container {
+        background-color: #0F1930 !important;
+    }
+    .header_holder {
+
+        margin-bottom: 210px;
+    }
+    .wide-intro {
+        height: 450px;
+
+    }
+    .chooseregionselect {
+        width: 100%;
+    }
+
+    .wide-intro  .dtable-cell {
+        vertical-align: bottom;
+
+    }
+}
