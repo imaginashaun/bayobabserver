@@ -311,7 +311,7 @@ ul.list-link li a, ul.list-link li {
 
 .skin-yellow .navbar.navbar-site {
     background-color: #0F1930!important;
-    border: 1px solid #030c21!important;
+    border: none !important;
     height: 74px;
     background: #0F1930 0% 0% no-repeat padding-box !important;
 }
