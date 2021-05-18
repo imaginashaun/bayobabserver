@@ -67,7 +67,7 @@ class HomeController extends FrontController
 			return $sections;
 		});
         $data['slider_images'] = SliderImage::where('active', 1)->get();
-        $data['home_images'] = HomePageImage::where('active', 1)->get();
+        $data['home_image'] = HomePageImage::where('active', 1)->first();
 
 		$searchFormOptions = [];
 		if ($data['sections']->count() > 0) {
