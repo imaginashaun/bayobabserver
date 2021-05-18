@@ -94,31 +94,30 @@ if (isset($searchFormOptions, $searchFormOptions['hide_on_mobile']) and $searchF
 	
 	<?php $parallax = (isset($sForm['parallax']) and $sForm['parallax'] == '1') ? 'parallax' : ''; ?>
 
+
+
 <div style="position:relative;">
 	<div id="carouselExampleControls" class="carousel slide wide-intro hide_bg" style="padding: 0px;" data-ride="carousel">
 		<div class="carousel-inner">
-			<div class="carousel-item active wide-intro" style="background-image: url('/storage/app/images/ladyphone.jpg'); padding: 0px;    background-position: center;">
-<div class="dtable hw100">
-				<div class="dtable-cell hw100">
 
-					<div class="header_holder"><h1 class="intro-title animated fadeInDown"> {{ $sForm['title'] }} </h1>
-				<p class="sub animateme fittext3 animated fadeIn">
-					{!! $sForm['subTitle'] !!}
-				</p>
-					</div>
 
-</div>
-</div>
-
-			</div>
+<?php
+			$start = 0;
+			?>
+			@if (isset($slider_images))
+				@foreach($slider_images as $slider_image)
 
 
 
-			<div class="carousel-item wide-intro" style="background-image: url('/storage/app/images/house.jpg'); padding: 0px;    background-position: center;">
+			<div class="carousel-item wide-intro <?php
+			if($start == 0){
+				echo "active";
+			}
+			?>" style="background-image: url('/storage/{!!$slider_image['picture']!!}'); padding: 0px;    background-position: center;">
 				<div class="dtable hw100">
 					<div class="dtable-cell hw100">
 
-						<div class="header_holder"><h1 class="intro-title animated fadeInDown"> Rent or buy </h1>
+						<div class="header_holder"><h1 class="intro-title animated fadeInDown">	{!! $slider_image['title'] !!}</h1>
 							<p class="sub animateme fittext3 animated fadeIn">
 								{!! $sForm['subTitle'] !!}
 							</p>
@@ -128,25 +127,15 @@ if (isset($searchFormOptions, $searchFormOptions['hide_on_mobile']) and $searchF
 				</div>
 
 			</div>
+					<?php
+					$start++;
+					?>
+				@endforeach
+			@endif
 
 
-			<div class="carousel-item wide-intro" style="background-image: url('/storage/app/images/fashion.jpg'); padding: 0px;    background-position: center;">
-				<div class="dtable hw100">
-					<div class="dtable-cell hw100">
-
-						<div class="header_holder"><h1 class="intro-title animated fadeInDown"> Discover your wardrobe </h1>
-							<p class="sub animateme fittext3 animated fadeIn">
-								{!! $sForm['subTitle'] !!}
-							</p>
-						</div>
-
-					</div>
-				</div>
-
-			</div>
 
 		</div>
-
 
 	</div>
 
@@ -212,6 +201,10 @@ if (isset($searchFormOptions, $searchFormOptions['hide_on_mobile']) and $searchF
 		</a>
 	</div>
 </div>
+
+
+
+
 @else
 	
 	@includeFirst([config('larapen.core.customizedViewPath') . 'home.inc.spacer', 'home.inc.spacer'])
