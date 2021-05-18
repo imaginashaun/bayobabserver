@@ -126,6 +126,8 @@ Route::group([
 		CRUD::resource('meta_tags', 'MetaTagController');
 		CRUD::resource('packages', 'PackageController');
 		CRUD::resource('pages', 'PageController');
+		CRUD::resource('sliderimages', 'SliderImageController');
+		CRUD::resource('homepageimages', 'HomePageImageController');
 		CRUD::resource('payments', 'PaymentController');
 		CRUD::resource('payment_methods', 'PaymentMethodController');
 		CRUD::resource('permissions', 'PermissionController');

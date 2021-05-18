@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7563774-a380-4506-b643-d3c825a12741" name="Default Changelist" comment="">
+    <list default="true" id="e7563774-a380-4506-b643-d3c825a12741" name="Default Changelist" comment="Bayobab update">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/HomePageImageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Admin/HomePageImageRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Admin/ImageSliderRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/HomePageImage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Observers/SliderImageObserver.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Setting/AppSetting.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Setting/AppSetting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/platform_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/platform_check.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,6 +251,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1qtW7UmASd8xaqHn40JKGQLZ5Ht" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -232,18 +261,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/storage/app/public/app/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Requests/Admin" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Http/Requests/Admin" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/Admin" />
+      <recent name="$PROJECT_DIR$/app/Models" />
+      <recent name="$PROJECT_DIR$/app/Observers" />
+      <recent name="$PROJECT_DIR$/storage/app/public/app/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/Admin" />
       <recent name="$PROJECT_DIR$/storage/app/public/app/images" />
       <recent name="$PROJECT_DIR$/storage/app/public/app/default" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/storage/app/public/app/images" />
-      <recent name="$PROJECT_DIR$/storage/app/public/app" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -266,12 +299,37 @@
       <workItem from="1620290234146" duration="22000" />
       <workItem from="1620340671952" duration="388000" />
       <workItem from="1620392753693" duration="106000" />
-      <workItem from="1621006920717" duration="40000" />
+      <workItem from="1621006920717" duration="1685000" />
+      <workItem from="1621270371378" duration="4210000" />
     </task>
+    <task id="LOCAL-00001" summary="Bayobab update">
+      <created>1621007023441</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621007023441</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Bayobab update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bayobab update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2024" y="352" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619354860858">
@@ -282,18 +340,27 @@
       <screen x="0" y="25" width="5120" height="1338" />
     </state>
     <state x="3979" y="522" key="#com.intellij.fileTypes.FileTypeChooser/0.25.5120.1338@0.25.5120.1338" timestamp="1619867466950" />
-    <state x="487" y="205" width="143" height="801" key="dock-window-1" timestamp="1621006959786">
+    <state x="3072" y="325" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1621357499235">
+      <screen x="0" y="25" width="5120" height="1338" />
+    </state>
+    <state x="3072" y="325" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.5120.1338@0.25.5120.1338" timestamp="1621357499235" />
+    <state x="425" y="258" key="Vcs.Push.Dialog.v2" timestamp="1621007025152">
       <screen x="0" y="25" width="1792" height="1043" />
+    </state>
+    <state x="425" y="258" key="Vcs.Push.Dialog.v2/0.25.1792.1043@0.25.1792.1043" timestamp="1621007025152" />
+    <state x="487" y="525" width="1151" height="801" key="dock-window-1" timestamp="1621185482472">
+      <screen x="0" y="25" width="5120" height="1338" />
     </state>
     <state x="487" y="202" width="143" height="788" key="dock-window-1/0.25.1792.1024@0.25.1792.1024" timestamp="1620341059856" />
     <state x="51" y="26" width="406" height="1027" key="dock-window-1/0.25.1792.1027@0.25.1792.1027" timestamp="1620199260362" />
     <state x="487" y="205" width="143" height="801" key="dock-window-1/0.25.1792.1043@0.25.1792.1043" timestamp="1621006959786" />
-    <state x="1391" y="256" width="406" height="1027" key="dock-window-1/0.25.5120.1338@0.25.5120.1338" timestamp="1620392859926" />
-    <state x="597" y="318" width="691" height="490" key="find.popup" timestamp="1621006947585">
-      <screen x="0" y="25" width="1792" height="1043" />
+    <state x="487" y="525" width="1151" height="801" key="dock-window-1/0.25.5120.1338@0.25.5120.1338" timestamp="1621185482472" />
+    <state x="2724" y="187" width="1568" height="586" key="find.popup" timestamp="1621357297353">
+      <screen x="0" y="25" width="5120" height="1338" />
     </state>
     <state x="597" y="315" width="691" height="490" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1619460005113" />
-    <state x="597" y="318" width="691" height="490" key="find.popup/0.25.1792.1043@0.25.1792.1043" timestamp="1621006947585" />
-    <state x="1485" y="215" width="1975" height="586" key="find.popup/0.25.5120.1338@0.25.5120.1338" timestamp="1619354811707" />
+    <state x="597" y="317" width="691" height="490" key="find.popup/0.25.1792.1038@0.25.1792.1038" timestamp="1621270477070" />
+    <state x="597" y="318" width="691" height="490" key="find.popup/0.25.1792.1043@0.25.1792.1043" timestamp="1621014483904" />
+    <state x="2724" y="187" width="1568" height="586" key="find.popup/0.25.5120.1338@0.25.5120.1338" timestamp="1621357297353" />
   </component>
 </project>
