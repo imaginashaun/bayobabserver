@@ -103,15 +103,14 @@
 								@endif
 							</ul>
 						</li>
+
 					@endif
 					
-					@if (
-						auth()->user()->can('user-list')
+					@if (auth()->user()->can('user-list')
 						|| auth()->user()->can('role-list')
 						|| auth()->user()->can('permission-list')
 						|| auth()->user()->can('gender-list')
-						|| userHasSuperAdminPermissions()
-					)
+						|| userHasSuperAdminPermissions()					)
 						<li  class="sidebar-item">
 							<a href="#" class="sidebar-link has-arrow waves-effect waves-dark">
 								<i data-feather="users" class="feather-icon"></i> <span class="hide-menu">{{ trans('admin.users') }}</span>
@@ -167,6 +166,19 @@
 							</a>
 						</li>
 					@endif
+					<li class="sidebar-item">
+						<a href="{{ admin_url('sliderimages') }}" class="sidebar-link">
+							<i class="mdi mdi-adjust"></i>
+							<span class="hide-menu">Home Image Sliders</span>
+						</a>
+					</li>
+					<li class="sidebar-item">
+						<a href="{{ admin_url('homepageimages') }}" class="sidebar-link">
+							<i class="mdi mdi-adjust"></i>
+							<span class="hide-menu">Home Banners</span>
+						</a>
+					</li>
+
 					{!! $pluginsMenu !!}
 					
 					{{-- ======================================= --}}
@@ -288,6 +300,7 @@
 							</ul>
 						</li>
 					@endif
+
 					
 				</ul>
 			</nav>

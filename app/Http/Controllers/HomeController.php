@@ -17,9 +17,11 @@ namespace App\Http\Controllers;
 
 use App\Helpers\ArrayHelper;
 use App\Helpers\UrlGen;
+use App\Models\HomePageImage;
 use App\Models\Post;
 use App\Models\Category;
 use App\Models\HomeSection;
+use App\Models\SliderImage;
 use App\Models\SubAdmin1;
 use App\Models\City;
 use App\Models\User;
@@ -64,7 +66,9 @@ class HomeController extends FrontController
 			
 			return $sections;
 		});
-		
+        $data['slider_images'] = SliderImage::where('active', 1)->get();
+        $data['home_image'] = HomePageImage::where('active', 1)->first();
+
 		$searchFormOptions = [];
 		if ($data['sections']->count() > 0) {
 			foreach ($data['sections'] as $section) {
