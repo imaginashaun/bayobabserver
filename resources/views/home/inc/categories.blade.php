@@ -196,20 +196,27 @@ if (isset($categoriesOptions, $categoriesOptions['hide_on_mobile']) and $categor
 		<div style="position:relative;">
 		<img src="/storage/{!! $home_image['picture'] !!}" class="lazyload img-fluid" alt="Automobiles">
 
+
 			<div class="row " style="position: absolute; bottom: 50px; right:50px;">
-				<div class="col-xs-12 col-sm-6">
-					<a class="app-icon" target="_blank" href="https://play.google.com/store/apps/details?id=net.daylio">
-						<span class="hide-visually">iOS app</span>
-						<img src="https://thebayobab.com/images/site/app-store-badge.svg" alt="Available on the App Store">
-					</a>
-				</div>
-				<div class="col-xs-12 col-sm-6">
-					<a class="app-icon" target="_blank" href="https://play.google.com/store/apps/details?id=net.daylio">
-						<span class="hide-visually">Android App</span>
-						<img src="https://thebayobab.com/images/site/google-play-badge.svg" alt="Available on Google Play">
-					</a>
-				</div>
+				@if (config('settings.other.ios_app_url'))
+					<div class="col-xs-12 col-sm-6">
+						<a class="app-icon" target="_blank" href="{{ config('settings.other.ios_app_url') }}">
+							<span class="hide-visually">{{ t('iOS app') }}</span>
+							<img src="{{ url('images/site/app-store-badge.svg') }}" alt="{{ t('Available on the App Store') }}">
+						</a>
+					</div>
+				@endif
+				@if (config('settings.other.android_app_url'))
+					<div class="col-xs-12 col-sm-6">
+						<a class="app-icon" target="_blank" href="{{ config('settings.other.android_app_url') }}">
+							<span class="hide-visually">{{ t('Android App') }}</span>
+							<img src="{{ url('images/site/google-play-badge.svg') }}" alt="{{ t('Available on Google Play') }}">
+						</a>
+					</div>
+				@endif
 			</div>
+
+
 		</div>
 
 	</div>
