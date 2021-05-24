@@ -197,7 +197,7 @@ if (isset($categoriesOptions, $categoriesOptions['hide_on_mobile']) and $categor
 		<img src="/storage/{!! $home_image['picture'] !!}" class="lazyload img-fluid" alt="Automobiles">
 
 
-			<div class="row " style="position: absolute; bottom: 50px; right:50px;">
+			<div class="row " style="position: absolute; bottom: 50px; right:50px;min-width: 330px;">
 				@if (config('settings.other.ios_app_url'))
 					<div class="col-xs-12 col-sm-6">
 						<a class="app-icon" target="_blank" href="{{ config('settings.other.ios_app_url') }}">

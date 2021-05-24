@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7563774-a380-4506-b643-d3c825a12741" name="Default Changelist" comment="Fixed home banners">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e7563774-a380-4506-b643-d3c825a12741" name="Default Changelist" comment="Fixed home banner links">
       <change beforePath="$PROJECT_DIR$/resources/views/home/inc/categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/inc/categories.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -293,7 +292,7 @@
       <workItem from="1620392753693" duration="106000" />
       <workItem from="1621006920717" duration="1685000" />
       <workItem from="1621270371378" duration="6721000" />
-      <workItem from="1621852968462" duration="153000" />
+      <workItem from="1621852968462" duration="519000" />
     </task>
     <task id="LOCAL-00001" summary="Bayobab update">
       <created>1621007023441</created>
@@ -330,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621360440849</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed home banner links">
+      <created>1621853147847</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621853147847</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +358,8 @@
     <MESSAGE value="Bayobab update" />
     <MESSAGE value="Fixed home images and ads from admin" />
     <MESSAGE value="Fixed home banners" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed home banners" />
+    <MESSAGE value="Fixed home banner links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed home banner links" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2024" y="352" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619354860858">
@@ -367,11 +374,11 @@
       <screen x="0" y="25" width="5120" height="1338" />
     </state>
     <state x="3072" y="325" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.5120.1338@0.25.5120.1338" timestamp="1621357499235" />
-    <state x="1214" y="324" key="Vcs.Push.Dialog.v2" timestamp="1621360453198">
+    <state x="1214" y="324" key="Vcs.Push.Dialog.v2" timestamp="1621853151067">
       <screen x="0" y="25" width="5120" height="1338" />
     </state>
     <state x="425" y="258" key="Vcs.Push.Dialog.v2/0.25.1792.1043@0.25.1792.1043" timestamp="1621007025152" />
-    <state x="1214" y="324" key="Vcs.Push.Dialog.v2/0.25.5120.1338@0.25.5120.1338" timestamp="1621360453198" />
+    <state x="1214" y="324" key="Vcs.Push.Dialog.v2/0.25.5120.1338@0.25.5120.1338" timestamp="1621853151066" />
     <state x="487" y="525" width="1151" height="801" key="dock-window-1" timestamp="1621185482472">
       <screen x="0" y="25" width="5120" height="1338" />
     </state>
