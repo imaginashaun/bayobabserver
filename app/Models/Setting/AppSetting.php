@@ -214,13 +214,13 @@ class AppSetting
 				'name'  => 'separator_1',
 				'type'  => 'custom_html',
 				'value' => trans('admin.app_html_brand_info'),
-			],
+			],/*
 			[
 				'name'  => 'purchase_code',
 				'label' => trans('admin.Purchase Code'),
 				'type'  => 'text',
 				'hint'  => trans('admin.find_my_purchase_code'),
-			],
+			],*/
 			[
 				'name'              => 'app_name',
 				'label'             => trans('admin.App Name'),
