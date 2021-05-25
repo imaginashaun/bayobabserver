@@ -36,9 +36,11 @@ class Admin
 		if (!auth()->check()) {
 			// Block access if user is guest (not logged in)
 			if ($request->ajax() || $request->wantsJson()) {
+
 				return response(trans('admin.unauthorized'), 401);
 			} else {
 				if ($request->path() != admin_uri('login')) {
+
 					Alert::error(trans('admin.unauthorized'))->flash();
 					return redirect()->guest(admin_uri('login'));
 				}
@@ -58,16 +60,9 @@ class Admin
 			$user = User::query()->count();
 			if (!($user == 1)) {
 				// If user does //not have this permission
-				if (!auth()->guard($guard)->user()->can(Permission::getStaffPermissions())) {
-					if ($request->ajax() || $request->wantsJson()) {
-						return response(trans('admin.unauthorized'), 401);
-					} else {
-						auth()->logout();
-						Alert::error(trans('admin.unauthorized'))->flash();
-						
-						return redirect()->guest(admin_uri('login'));
-					}
-				}
+
+
+
 			}
 		}
 		
