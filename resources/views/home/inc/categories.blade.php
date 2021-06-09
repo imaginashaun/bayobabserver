@@ -189,12 +189,19 @@ if (isset($categoriesOptions, $categoriesOptions['hide_on_mobile']) and $categor
 			</div>
 
 		</div>
+
+		<?php
+
+
+if (strpos($_SERVER['HTTP_USER_AGENT'], 'wv') == false):
+    // Android or iOS Webview
+?>
 		<br>
 		<br>
 
 
 		<div style="position:relative;">
-		<img src="/storage/{!! $home_image['picture'] !!}" class="lazyload img-fluid" alt="Automobiles">
+			<img src="/storage/{!! $home_image['picture'] !!}" class="lazyload img-fluid" alt="Automobiles">
 
 
 			<div class="row " style="position: absolute; bottom: 50px; right:50px;min-width: 330px;">
@@ -218,6 +225,15 @@ if (isset($categoriesOptions, $categoriesOptions['hide_on_mobile']) and $categor
 
 
 		</div>
+
+
+
+	<?php
+    // Normal Browser
+endif;
+?>
+
+
 
 	</div>
 
