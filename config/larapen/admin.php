@@ -46,13 +46,13 @@ return [
     'logo_mini' => '<b>LRC</b>',
 	
 	// Auth Background Image
-	'login_bg_image' => 'app/default/backend/login_bg_image.jpg',
+	'login_bg_image' => 'app/default/backend/login-bg-image-60a29f8c3ef68.jpeg',
 	
     // Developer or company name. Shown in footer.
-    'developer_name' => 'BedigitCom',
+    'developer_name' => 'SimbaSol',
 	
     // Developer website. Link in footer.
-    'developer_link' => 'https://bedigit.com',
+    'developer_link' => 'https://simbasol.com',
 	
     // Show powered by Laravel in the footer?
     'show_powered_by' => true,

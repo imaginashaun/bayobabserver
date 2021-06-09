@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7563774-a380-4506-b643-d3c825a12741" name="Default Changelist" comment="Remove checking requirement">
+      <change afterPath="$PROJECT_DIR$/storage/app/public/app/default/backend/login-bg-image-606f351c83ccc.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/inc/categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/inc/categories.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/larapen/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/larapen/admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,22 +254,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Requests/Admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/storage/app/public/app/default/backend" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/Http/Requests/Admin" />
-      <recent name="$PROJECT_DIR$/app/Http/Controllers/Admin" />
-      <recent name="$PROJECT_DIR$/app/Models" />
-      <recent name="$PROJECT_DIR$/app/Observers" />
-      <recent name="$PROJECT_DIR$/storage/app/public/app/images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Admin" />
       <recent name="$PROJECT_DIR$/storage/app/public/app/images" />
       <recent name="$PROJECT_DIR$/storage/app/public/app/default" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/storage/app/public/app/default/backend" />
+      <recent name="$PROJECT_DIR$/storage/app/public/app/backend" />
+      <recent name="$PROJECT_DIR$/app/Http/Requests/Admin" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/Admin" />
+      <recent name="$PROJECT_DIR$/app/Models" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -295,7 +297,7 @@
       <workItem from="1621270371378" duration="6721000" />
       <workItem from="1621852968462" duration="1071000" />
       <workItem from="1621939336243" duration="3771000" />
-      <workItem from="1623259743725" duration="377000" />
+      <workItem from="1623259743725" duration="2128000" />
     </task>
     <task id="LOCAL-00001" summary="Bayobab update">
       <created>1621007023441</created>
@@ -353,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621942626928</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Remove checking requirement">
+      <created>1623260138711</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1623260138711</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,10 +401,14 @@
       <screen x="0" y="25" width="5120" height="1338" />
     </state>
     <state x="3072" y="325" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.5120.1338@0.25.5120.1338" timestamp="1621357499235" />
-    <state x="425" y="250" key="Vcs.Push.Dialog.v2" timestamp="1621942631179">
+    <state x="601" y="408" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1623264477904">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="425" y="250" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1621942631179" />
+    <state x="601" y="408" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1792.1120@0.0.1792.1120" timestamp="1623264477904" />
+    <state x="425" y="250" key="Vcs.Push.Dialog.v2" timestamp="1623260140496">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="425" y="250" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1623260140496" />
     <state x="425" y="258" key="Vcs.Push.Dialog.v2/0.25.1792.1043@0.25.1792.1043" timestamp="1621007025152" />
     <state x="1214" y="324" key="Vcs.Push.Dialog.v2/0.25.5120.1338@0.25.5120.1338" timestamp="1621853554125" />
     <state x="487" y="525" width="1151" height="801" key="dock-window-1" timestamp="1621185482472">
@@ -405,10 +418,10 @@
     <state x="51" y="26" width="406" height="1027" key="dock-window-1/0.25.1792.1027@0.25.1792.1027" timestamp="1620199260362" />
     <state x="487" y="205" width="143" height="801" key="dock-window-1/0.25.1792.1043@0.25.1792.1043" timestamp="1621006959786" />
     <state x="487" y="525" width="1151" height="801" key="dock-window-1/0.25.5120.1338@0.25.5120.1338" timestamp="1621185482472" />
-    <state x="597" y="315" width="691" height="490" key="find.popup" timestamp="1623259940224">
+    <state x="597" y="315" width="691" height="490" key="find.popup" timestamp="1623264154579">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="597" y="315" width="691" height="490" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1623259940224" />
+    <state x="597" y="315" width="691" height="490" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1623264154579" />
     <state x="597" y="317" width="691" height="490" key="find.popup/0.25.1792.1038@0.25.1792.1038" timestamp="1621270477070" />
     <state x="597" y="318" width="691" height="490" key="find.popup/0.25.1792.1043@0.25.1792.1043" timestamp="1621014483904" />
     <state x="2724" y="187" width="1568" height="586" key="find.popup/0.25.5120.1338@0.25.5120.1338" timestamp="1621853001249" />
