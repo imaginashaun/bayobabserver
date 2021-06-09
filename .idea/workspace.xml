@@ -20,8 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7563774-a380-4506-b643-d3c825a12741" name="Default Changelist" comment="Remove checking requirement">
-      <change afterPath="$PROJECT_DIR$/storage/app/public/app/default/backend/login-bg-image-606f351c83ccc.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/larapen/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/larapen/admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -297,7 +295,7 @@
       <workItem from="1621270371378" duration="6721000" />
       <workItem from="1621852968462" duration="1071000" />
       <workItem from="1621939336243" duration="3771000" />
-      <workItem from="1623259743725" duration="2128000" />
+      <workItem from="1623259743725" duration="2171000" />
     </task>
     <task id="LOCAL-00001" summary="Bayobab update">
       <created>1621007023441</created>
@@ -362,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623260138711</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Remove checking requirement">
+      <created>1623264661786</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1623264661786</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,10 +410,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="601" y="408" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1792.1120@0.0.1792.1120" timestamp="1623264477904" />
-    <state x="425" y="250" key="Vcs.Push.Dialog.v2" timestamp="1623260140496">
+    <state x="425" y="250" key="Vcs.Push.Dialog.v2" timestamp="1623264663720">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="425" y="250" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1623260140496" />
+    <state x="425" y="250" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1623264663720" />
     <state x="425" y="258" key="Vcs.Push.Dialog.v2/0.25.1792.1043@0.25.1792.1043" timestamp="1621007025152" />
     <state x="1214" y="324" key="Vcs.Push.Dialog.v2/0.25.5120.1338@0.25.5120.1338" timestamp="1621853554125" />
     <state x="487" y="525" width="1151" height="801" key="dock-window-1" timestamp="1621185482472">

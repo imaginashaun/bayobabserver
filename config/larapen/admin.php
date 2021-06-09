@@ -42,8 +42,8 @@ return [
 	],
 	
     // Logos Text
-    'logo_lg'   => '<b>Lara</b>Classified',
-    'logo_mini' => '<b>LRC</b>',
+    'logo_lg'   => '<b>The</b>Bayobab',
+    'logo_mini' => '<b>TBB</b>',
 	
 	// Auth Background Image
 	'login_bg_image' => 'app/default/backend/login-bg-image-60a29f8c3ef68.jpeg',
