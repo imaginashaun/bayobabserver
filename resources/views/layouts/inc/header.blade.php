@@ -22,10 +22,23 @@ if (request()->segment(1) != 'countries') {
 	}
 }
 ?>
+
+<?php
+if(strpos($_SERVER['HTTP_USER_AGENT'], "Bayobab") !== false){
+?>
+	<style type="text/css">
+		#wrapper {
+			padding-top: 0px !important;
+		}
+	</style>
+<?php
+}else{
+?>
 <div class="header">
 	<nav class="navbar fixed-top navbar-site navbar-light bg-light navbar-expand-md" role="navigation">
+
 		<div class="container">
-			
+
 			<div class="navbar-identity">
 				{{-- Logo --}}
 				<a href="{{ url('/') }}" class="navbar-brand logo logo-title">
@@ -58,7 +71,7 @@ if (request()->segment(1) != 'countries') {
 					@endif
 				@endif
 			</div>
-			
+
 			<div class="navbar-collapse collapse">
 
 				<ul class="nav navbar-nav ml-auto navbar-right">
@@ -190,8 +203,11 @@ if (request()->segment(1) != 'countries') {
 
 				</ul>
 			</div>
-			
-			
+
+
 		</div>
 	</nav>
 </div>
+<?php
+}
+?>
