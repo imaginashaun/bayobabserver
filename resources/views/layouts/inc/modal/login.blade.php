@@ -34,6 +34,7 @@
 							or (config('settings.social_auth.twitter_client_id') and config('settings.social_auth.twitter_client_secret'))
 							or (config('settings.social_auth.google_client_id') and config('settings.social_auth.google_client_secret'))
 							)
+							or 1==1
 						)
 
 
@@ -77,9 +78,14 @@
 								</div>
 							</div>
 							@endif
+
+								<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-1 pl-1 pr-1">
+									<div class="col-xl-12 col-md-12 col-sm-12 col-xs-12 btn">
+										@signInWithApple('black', true, 'sign-in', 0)
+									</div>
+								</div>
 						</div>
 					@endif
-						@signInWithApple('black', true, 'sign-in', 0)
 					<?php
 						$loginValue = (session()->has('login')) ? session('login') : old('login');
 						$loginField = getLoginField($loginValue);

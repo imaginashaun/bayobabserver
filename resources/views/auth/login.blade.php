@@ -51,7 +51,8 @@
 						or (config('settings.social_auth.linkedin_client_id') and config('settings.social_auth.linkedin_client_secret'))
 						or (config('settings.social_auth.twitter_client_id') and config('settings.social_auth.twitter_client_secret'))
 						or (config('settings.social_auth.google_client_id') and config('settings.social_auth.google_client_secret'))
-						)
+
+						) or 1==1
 					)
 					<div class="col-xl-12">
 						<div class="row d-flex justify-content-center">
@@ -85,13 +86,23 @@
 										</div>
 									</div>
 									@endif
+										<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-1 pl-1 pr-1 pt">
+											<div class="col-xl-12 col-md-12 col-sm-12 col-xs-12 btn">
+											@signInWithApple('black', true, 'sign-in', 0)
+											</div>
+										</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				@endif
-					
-				<div class="col-lg-5 col-md-8 col-sm-10 col-xs-12 login-box mt-3">
+
+
+
+
+
+					<div class="col-lg-5 col-md-8 col-sm-10 col-xs-12 login-box mt-3">
+
 					<form id="loginForm" role="form" method="POST" action="{{ url()->current() }}">
 						{!! csrf_field() !!}
 						<input type="hidden" name="country" value="{{ config('country.code') }}">
