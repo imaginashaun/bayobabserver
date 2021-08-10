@@ -65,6 +65,7 @@ Route::group([
 | The admin panel routes
 |
 */
+
 Route::group([
 	'namespace'  => 'App\Http\Controllers\Admin',
 	'middleware' => ['web', 'install.checker'],
@@ -75,8 +76,9 @@ Route::group([
 	Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
 	Route::post('login', 'Auth\LoginController@login');
 	Route::get('logout', 'Auth\LoginController@logout')->name('logout');
-	
-	// Registration Routes...
+
+
+    // Registration Routes...
 	Route::get('register', 'Auth\RegisterController@showRegistrationForm')->name('register');
 	Route::post('register', 'Auth\RegisterController@register');
 	
@@ -188,8 +190,11 @@ Route::group([
 ], function ($router) {
 	// Select Language
 	Route::get('lang/{code}', 'Locale\SetLocaleController@redirect');
-	
-	// FILES
+
+    Route::get('applelogin', 'AppleSigninController@login');
+    Route::post('applesigninendpoint', 'AppleSigninController@callback');
+
+    // FILES
 	Route::get('file', 'FileController@show');
 	Route::get('js/fileinput/locales/{code}.js', 'FileController@fileInputLocales');
 	
