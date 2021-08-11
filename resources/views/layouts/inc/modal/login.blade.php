@@ -78,9 +78,9 @@
 								</div>
 							</div>
 							@endif
-
+								
 								<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-1 pl-1 pr-1">
-									<div class="col-xl-12 col-md-12 col-sm-12 col-xs-12 btn btn-lg">
+									<div class="col-xl-12 col-md-12 col-sm-12 col-xs-12 btn btn-lg p-0">
 										@signInWithApple('black', true, 'sign-in', 0)
 									</div>
 								</div>
