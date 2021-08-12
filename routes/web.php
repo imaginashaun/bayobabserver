@@ -232,7 +232,7 @@ Route::group([
 		
 		
 		// HOMEPAGE
-		Route::get('/', 'HomeController@index');
+		Route::get('/', 'HomeController@index')->name('home');
 		Route::get(dynamicRoute('routes.countries'), 'CountriesController@index');
 		
 		
