@@ -34,7 +34,7 @@ class AppleSigninController extends Controller
 
               //$newuser = User::create(['name'=>$user->getName(), 'email'=>$user->getEmail()]);
 
-              $name = md5($user->getEmail());
+              $name = "No Name";
               if($user->getName() != ""){
                   $name = $user->getName();
               }else if($user->getNickname() != ""){
@@ -44,7 +44,6 @@ class AppleSigninController extends Controller
 
         $newuser = User::where('email', '=', $user->getEmail())->first();
         if ($newuser === null) {
-
             $newuser = new User();
             $newuser->name = $name;
             $newuser->email = $user->getEmail();
