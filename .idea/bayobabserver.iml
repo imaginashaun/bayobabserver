@@ -217,6 +217,12 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/vonage/nexmo-bridge" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/watson/sitemap" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/thanks" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/genealabs/laravel-socialiter" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/genealabs/laravel-overridable-model" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/genealabs/laravel-sign-in-with-apple" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/lcobucci/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/deprecations" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -96,7 +96,7 @@ if (isset($searchFormOptions, $searchFormOptions['hide_on_mobile']) and $searchF
 
 
 
-<div style="position:relative;">
+<div style="position:relative; background: #f5f5f5 none repeat scroll 0 0;">
 	<div id="carouselExampleControls" class="carousel slide wide-intro hide_bg" style="padding: 0px;" data-ride="carousel">
 		<div class="carousel-inner">
 
@@ -141,11 +141,31 @@ if (isset($searchFormOptions, $searchFormOptions['hide_on_mobile']) and $searchF
 
 	<div class="wide-intro {{ $parallax }}{{ $hideOnMobile }}" style="position: absolute;  top: 0px; width: 100%; background-image: none; background-color: transparent">
 
+<style>
 
+.thetextfordesktop, .thetextformobile {
+	display: none !important;
+}
+	/* Medium Screen */
+	@media (min-width: 768px) {
+		.thetextfordesktop {
+			display: block !important;
+		}
+	}
+
+@media (max-width: 768px) {
+	.thetextformobile {
+		display: block !important;
+		margin-top:20px;
+	}
+}
+
+
+	</style>
 
 		<div class="dtable hw100">
 			<div class="dtable-cell hw100">
-				<div class="container text-center">
+				<div class="container text-center thetextfordesktop">
 				<!--
 					@if ($sForm['hideTitles'] != '1')
 						<h1 class="intro-title animated fadeInDown"> {{ $sForm['title'] }} </h1>
@@ -200,6 +220,52 @@ if (isset($searchFormOptions, $searchFormOptions['hide_on_mobile']) and $searchF
 			<span class="sr-only">Next</span>
 		</a>
 	</div>
+
+
+	<div class="container text-center thetextformobile">
+		<!--
+					@if ($sForm['hideTitles'] != '1')
+			<h1 class="intro-title animated fadeInDown"> {{ $sForm['title'] }} </h1>
+						<p class="sub animateme fittext3 animated fadeIn">
+							{!! $sForm['subTitle'] !!}
+			</p>
+@endif
+		-->
+		@if ($sForm['hideForm'] != '1')
+			<div class="search-row animated fadeInUp rounded">
+				<form id="search" name="search" action="{{ \App\Helpers\UrlGen::search() }}" method="GET">
+					<div class="row m-0">
+						<div class="col-md-5 col-sm-12 mb-1 mb-xl-0 mb-lg-0 mb-md-0 search-col relative">
+							<i class="icon-docs icon-append"></i>
+							<input type="text" name="q" class="form-control keyword has-icon" placeholder="{{ t('what') }}" value="">
+						</div>
+
+						<div class="col-md-5 col-sm-12 mb-1 mb-xl-0 mb-lg-0 mb-md-0 search-col relative locationicon">
+							<i class="icon-location-2 icon-append"></i>
+							<input type="hidden" id="lSearch" name="l" value="">
+							@if ($showMap)
+								<input type="text" id="locSearch" name="location" class="form-control locinput input-rel searchtag-input has-icon tooltipHere"
+									   placeholder="{{ t('where') }}" value="" title="" data-placement="bottom"
+									   data-toggle="tooltip"
+									   data-original-title="{{ t('Enter a city name OR a state name with the prefix', ['prefix' => t('area')])}}">
+							@else
+								<input type="text" id="locSearch" name="location" class="form-control locinput input-rel searchtag-input has-icon"
+									   placeholder="{{ t('where') }}" value="">
+							@endif
+						</div>
+
+						<div class="col-md-2 col-sm-12 search-col">
+							<button class="btn btn-primary btn-search btn-block">
+								<i class="icon-search"></i> <strong>{{ t('find') }}</strong>
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		@endif
+
+	</div>
+
 </div>
 
 

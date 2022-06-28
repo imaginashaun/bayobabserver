@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7563774-a380-4506-b643-d3c825a12741" name="Default Changelist" comment="Remove checking requirement">
-      <change beforePath="$PROJECT_DIR$/config/larapen/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/larapen/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/bayobabserver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bayobabserver.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/inc/search.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/inc/search.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +36,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -239,6 +245,12 @@
       <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
       <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
       <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/symfony/thanks" />
+      <path value="$PROJECT_DIR$/vendor/genealabs/laravel-socialiter" />
+      <path value="$PROJECT_DIR$/vendor/genealabs/laravel-overridable-model" />
+      <path value="$PROJECT_DIR$/vendor/genealabs/laravel-sign-in-with-apple" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/clock" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
     </include_path>
   </component>
   <component name="ProjectId" id="1qtW7UmASd8xaqHn40JKGQLZ5Ht" />
@@ -249,14 +261,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/storage/app/public/app/default/backend" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/imaginashaun/Documents/WebApps/bayobabserver",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Admin" />
@@ -296,6 +309,7 @@
       <workItem from="1621852968462" duration="1071000" />
       <workItem from="1621939336243" duration="3771000" />
       <workItem from="1623259743725" duration="2171000" />
+      <workItem from="1656423716527" duration="662000" />
     </task>
     <task id="LOCAL-00001" summary="Bayobab update">
       <created>1621007023441</created>
@@ -383,7 +397,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Bayobab update" />
@@ -392,47 +405,5 @@
     <MESSAGE value="Fixed home banner links" />
     <MESSAGE value="Remove checking requirement" />
     <option name="LAST_COMMIT_MESSAGE" value="Remove checking requirement" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="2024" y="352" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619354860858">
-      <screen x="0" y="25" width="5120" height="1338" />
-    </state>
-    <state x="2024" y="352" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.5120.1338@0.25.5120.1338" timestamp="1619354860858" />
-    <state x="3979" y="522" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1619867466950">
-      <screen x="0" y="25" width="5120" height="1338" />
-    </state>
-    <state x="3979" y="522" key="#com.intellij.fileTypes.FileTypeChooser/0.25.5120.1338@0.25.5120.1338" timestamp="1619867466950" />
-    <state x="3072" y="325" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1621357499235">
-      <screen x="0" y="25" width="5120" height="1338" />
-    </state>
-    <state x="3072" y="325" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.5120.1338@0.25.5120.1338" timestamp="1621357499235" />
-    <state x="601" y="408" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1623264477904">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="601" y="408" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1792.1120@0.0.1792.1120" timestamp="1623264477904" />
-    <state x="425" y="250" key="Vcs.Push.Dialog.v2" timestamp="1623264663720">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="425" y="250" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1623264663720" />
-    <state x="425" y="258" key="Vcs.Push.Dialog.v2/0.25.1792.1043@0.25.1792.1043" timestamp="1621007025152" />
-    <state x="1214" y="324" key="Vcs.Push.Dialog.v2/0.25.5120.1338@0.25.5120.1338" timestamp="1621853554125" />
-    <state x="487" y="525" width="1151" height="801" key="dock-window-1" timestamp="1621185482472">
-      <screen x="0" y="25" width="5120" height="1338" />
-    </state>
-    <state x="487" y="202" width="143" height="788" key="dock-window-1/0.25.1792.1024@0.25.1792.1024" timestamp="1620341059856" />
-    <state x="51" y="26" width="406" height="1027" key="dock-window-1/0.25.1792.1027@0.25.1792.1027" timestamp="1620199260362" />
-    <state x="487" y="205" width="143" height="801" key="dock-window-1/0.25.1792.1043@0.25.1792.1043" timestamp="1621006959786" />
-    <state x="487" y="525" width="1151" height="801" key="dock-window-1/0.25.5120.1338@0.25.5120.1338" timestamp="1621185482472" />
-    <state x="597" y="315" width="691" height="490" key="find.popup" timestamp="1623264154579">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="597" y="315" width="691" height="490" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1623264154579" />
-    <state x="597" y="317" width="691" height="490" key="find.popup/0.25.1792.1038@0.25.1792.1038" timestamp="1621270477070" />
-    <state x="597" y="318" width="691" height="490" key="find.popup/0.25.1792.1043@0.25.1792.1043" timestamp="1621014483904" />
-    <state x="2724" y="187" width="1568" height="586" key="find.popup/0.25.5120.1338@0.25.5120.1338" timestamp="1621853001249" />
-    <state x="3327" y="261" key="run.anything.popup" timestamp="1621359323089">
-      <screen x="0" y="25" width="5120" height="1338" />
-    </state>
-    <state x="3327" y="261" key="run.anything.popup/0.25.5120.1338@0.25.5120.1338" timestamp="1621359323089" />
   </component>
 </project>
