@@ -14,4 +14,4 @@ Disallow: /main.php
 Disallow: /mix-manifest.json
 
 
-Sitemap: http://161.35.6.31/zm/sitemaps.xml
+Sitemap: https://thebayobab.com/zm/sitemaps.xml

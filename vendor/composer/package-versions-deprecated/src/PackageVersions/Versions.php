@@ -62,6 +62,9 @@ final class Versions
   'florianv/laravel-swap' => '2.3.0@e88b79a4921d07f683182aaf0279568ced3c0acd',
   'florianv/swap' => '4.3.0@88edd27fcb95bdc58bbbf9e4b00539a2843d97fd',
   'fruitcake/laravel-cors' => 'v2.0.4@a8ccedc7ca95189ead0e407c43b530dc17791d6a',
+  'genealabs/laravel-overridable-model' => '0.1.0@cddb73892c9f136a9c6c875d0769da63a8d76e37',
+  'genealabs/laravel-sign-in-with-apple' => '0.5.0@839ba3fce6b10a1b80dc4e019e9fff59a60e545e',
+  'genealabs/laravel-socialiter' => '0.3.5@a4c83d818f2a12c1906a2c5ed2744a2cd784f5d8',
   'geoip2/geoip2' => 'v2.11.0@d01be5894a5c1a3381c58c9b1795cd07f96c30f7',
   'giggsey/libphonenumber-for-php' => '8.12.22@dc9992c35e52235c36241ebb5ddc280ceebe3c09',
   'giggsey/locale' => '1.9@b07f1eace8072ccc61445ad8fbd493ff9d783043',
@@ -183,6 +186,7 @@ final class Versions
   'symfony/routing' => 'v5.2.7@3f0cab2e95b5e92226f34c2c1aa969d3fc41f48c',
   'symfony/service-contracts' => 'v2.4.0@f040a30e04b57fbcc9c6cbcf4dbaa96bd318b9bb',
   'symfony/string' => 'v5.2.6@ad0bd91bce2054103f5eaa18ebeba8d3bc2a0572',
+  'symfony/thanks' => 'v1.2.10@e9c4709560296acbd4fe9e12b8d57a925aa7eae8',
   'symfony/translation' => 'v5.2.7@e37ece5242564bceea54d709eafc948377ec9749',
   'symfony/translation-contracts' => 'v2.4.0@95c812666f3e91db75385749fe219c5e494c7f95',
   'symfony/var-dumper' => 'v5.2.7@27cb9f7cfa3853c736425c7233a8f68814b19636',
@@ -238,7 +242,7 @@ final class Versions
   'sebastian/type' => '2.3.1@81cd61ab7bbf2de744aba0ea61fae32f721df3d2',
   'sebastian/version' => '3.0.2@c6c1022351a901512170118436c764e473f6de8c',
   'theseer/tokenizer' => '1.2.0@75a63c33a8577608444246075ea0af0d052e452a',
-  'bedigit/laraclassified' => 'dev-main@cc24882f03a9789e5b8a1694fc5b1fe0e363ed26',
+  'bedigit/laraclassified' => 'dev-main@2de6d1c6d61206c1c58ad1856c310eb16ac81a0d',
 );
 
     private function __construct()

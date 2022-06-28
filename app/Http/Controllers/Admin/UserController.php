@@ -161,6 +161,8 @@ class UserController extends PanelController
 		|--------------------------------------------------------------------------
 		*/
 		if (request()->segment(2) != 'account') {
+
+                        $this->xPanel->enableExportButtons();
 			// COLUMNS
 			$this->xPanel->addColumn([
 				'name'  => 'id',
@@ -240,6 +242,19 @@ class UserController extends PanelController
 					'class' => 'form-group col-md-6',
 				],
 			]);
+
+                       $this->xPanel->addField([
+                'name'       => 'password',
+                'label'      => trans('admin.Password'),
+                'type'       => 'password',
+                'attributes' => [
+                    'placeholder' => trans('admin.Password'),
+                ],
+                'prefix' => '<span class="input-group-text"><i class="ti-lock"></i></span>',
+                'wrapperAttributes' => [
+                    'class' => 'form-group col-md-6',
+                ]
+            ], 'update');
 			$this->xPanel->addField([
 				'name'              => 'name',
 				'label'             => trans('admin.Name'),
